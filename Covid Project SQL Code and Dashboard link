@@ -49,8 +49,6 @@ Group by location
 order by TotalDeathCount desc
 
 
---LET'S BREAK THINGS DOWN BY CONTINENT
-
 --Showing the Continents with the highest death count
 
 select location, cast(MAX(total_deaths) as bigint) as TotalDeathCount
@@ -86,8 +84,6 @@ where dea.continent is not null
 )
 select *, (RollingPeopleVaccinated/Population)*100
 from PopvsVac
-
---USE CTE
 
 
 --Temp Table
