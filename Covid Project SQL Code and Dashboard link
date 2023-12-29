@@ -1,3 +1,5 @@
+Tableau Dashboard for this project can be found here: https://public.tableau.com/app/profile/nicholas.torres5468/viz/CovidDashboard_16757898070550/Dashboard1
+
 select *
 from CovidDeaths
 where continent is not null
